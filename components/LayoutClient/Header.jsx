@@ -1,5 +1,6 @@
 import React from 'react'
 import './Layout.css'
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -10,19 +11,19 @@ const Header = () => {
             <div className="desktop-header-box">
               <div className="logo-box">
                 <div className="header-logo">
-                  <a href="/"><img src="https://cdn.mdsbrand.com/madis/assets/images/MADIS+MARINE.png" alt="MADIS MARINE" /></a>
+                  <Link href="/"><img src="https://cdn.mdsbrand.com/madis/assets/images/MADIS+MARINE.png" alt="MADIS MARINE" /></Link>
                 </div>
               </div>
               <div className="centaral-nav-box">
                 <div className="centaral-nav">
                   <ul>
-                    <li className="toggle-mega-menu" data-title="inventory"><a href="javascript:void(0)" className="centaral-nav-link">Inventory</a></li>
-                    <li><a id="header-suzuki-repower" href="/service" className="centaral-nav-link">Service</a></li>
-                    <li className="toggle-dropdown">
-                      <a id="header-parts" href="javascript:void(0)" className="centaral-nav-link">Resources</a>
+                    <li><Link href="#" className="centaral-nav-link">Inventory</Link></li>
+                    <li><Link href="#" className="centaral-nav-link">Service</Link></li>
+                    <li>
+                      <Link href="#" className="centaral-nav-link">Resources</Link>
                     </li>
-                    <li className="toggle-dropdown">
-                      <a id="header-parts" href="javascript:void(0)" className="centaral-nav-link">Company</a>
+                    <li>
+                      <Link href="#" className="centaral-nav-link">Company</Link>
                     </li>
                   </ul>
                 </div>
