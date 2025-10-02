@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Noto_Serif } from "next/font/google";
+import { Noto_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/LayoutClient/Header";
 import Footer from "@/components/LayoutClient/Footer";

@@ -45,6 +45,7 @@
     line-height: normal;
     display: inline-block;
     padding: 7px 28px;
+    text-decoration: none;
 }
 
 .centaral-nav ul {
