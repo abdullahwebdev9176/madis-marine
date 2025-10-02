@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './HomeStyle.css'
+import TransparentBtn from '../MadisButtons/TransparentBtn';
 
 
 const HomeHeroSection = () => {
@@ -31,7 +32,7 @@ const HomeHeroSection = () => {
                         </h1>
                     </div>
                     <div className="text-center mt-md-5">
-                        <a href="/boats-for-sale" className="tranpBtn bnrBtn">Browse Boats</a>
+                        <TransparentBtn button_link="/boats-for-sale" button_title="Browse Boats" />
                     </div>
                 </div>
             </section>
