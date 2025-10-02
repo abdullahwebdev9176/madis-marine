@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Noto_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/LayoutClient/Header";
 import Footer from "@/components/LayoutClient/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const notoSerif = Noto_Serif({
   variable: "--font-noto-serif",
