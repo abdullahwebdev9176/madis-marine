@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        { "type": "host", "value": "hafsa-health-blogger.vercel.app" }
+      ],
+      "destination": "https://www.thehealthsheet.com/:path*",
+      "permanent": true
+    }
+  ]
+}
