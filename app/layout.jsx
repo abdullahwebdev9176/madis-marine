@@ -18,6 +18,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+
+      <head>
+
+        {/* End Google Tag Manager */}
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="Gp7e6VmbNeX9V_DRYsQeyEc3R9CcA6h4Nc0xP4JJRV4" />
+
+      </head>
+
       <body className={`${notoSerif.variable}`}>
         
         <Header />
