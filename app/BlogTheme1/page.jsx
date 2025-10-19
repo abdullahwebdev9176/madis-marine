@@ -1,5 +1,8 @@
 import React from 'react'
 import '@/styles/pages/BlogTheme1.css'
+import { assets } from '@/Aseets/Assets'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const BlogTheme1 = () => {
     return (
@@ -10,25 +13,25 @@ const BlogTheme1 = () => {
                     <div className="blog-filter-list">
                         <ul className="desktop-blog-filter-list">
                             <li>
-                                <a href="javascript:void(0)" className="blog-filter-item active">All</a>
+                                <Link href="" className="blog-filter-item active">All</Link>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="blog-filter-item">News</a>
+                                <Link href="" className="blog-filter-item">News</Link>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="blog-filter-item">Product</a>
+                                <Link href="" className="blog-filter-item">Product</Link>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="blog-filter-item">Service</a>
+                                <Link href="" className="blog-filter-item">Service</Link>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="blog-filter-item">Company</a>
+                                <Link href="" className="blog-filter-item">Company</Link>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="blog-filter-item">Misc</a>
+                                <Link href="" className="blog-filter-item">Misc</Link>
                             </li>
                         </ul>
-                        <select name id className="form-control mobile-blog-filter-dropdown">
+                        <select className="form-control mobile-blog-filter-dropdown">
                             <option value="All Topics">All Topics</option>
                             <option value="News">News</option>
                             <option value="Product">Product</option>
@@ -41,9 +44,9 @@ const BlogTheme1 = () => {
                     <div className="blog-listing-box">
                         <div className="blog-listing-col">
                             <div className="blog-listing-image">
-                                <a href="javascript:void(0)">
-                                    <img src="./assets/images/dummy.png" alt />
-                                </a>
+                                <Link href="">
+                                    <Image src={assets.placeholderImg} alt="" />
+                                </Link>
                             </div>
                             <div className="blog-content-box">
                                 <p className="blog-category">News</p>
@@ -52,9 +55,9 @@ const BlogTheme1 = () => {
                         </div>
                         <div className="blog-listing-col">
                             <div className="blog-listing-image">
-                                <a href="javascript:void(0)">
-                                    <img src="./assets/images/dummy.png" alt />
-                                </a>
+                                <Link href="">
+                                    <Image src={assets.placeholderImg} alt="" />
+                                </Link>
                             </div>
                             <div className="blog-content-box">
                                 <p className="blog-category">News</p>
@@ -63,9 +66,9 @@ const BlogTheme1 = () => {
                         </div>
                         <div className="blog-listing-col">
                             <div className="blog-listing-image">
-                                <a href="javascript:void(0)">
-                                    <img src="./assets/images/dummy.png" alt />
-                                </a>
+                                <Link href="">
+                                    <Image src={assets.placeholderImg} alt="" />
+                                </Link>
                             </div>
                             <div className="blog-content-box">
                                 <p className="blog-category">News</p>
@@ -74,9 +77,9 @@ const BlogTheme1 = () => {
                         </div>
                         <div className="blog-listing-col">
                             <div className="blog-listing-image">
-                                <a href="javascript:void(0)">
-                                    <img src="./assets/images/dummy.png" alt />
-                                </a>
+                                <Link href="">
+                                    <Image src={assets.placeholderImg} alt="" />
+                                </Link>
                             </div>
                             <div className="blog-content-box">
                                 <p className="blog-category">News</p>

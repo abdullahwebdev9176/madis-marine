@@ -1,4 +1,4 @@
-import placeholderImg from './dummy.png';
+import placeholderImg from '@/Aseets/images/dummy.png';
 
 export const assets = {
   placeholderImg,
