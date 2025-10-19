@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "acumin-black";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-Black.ttf");
+}
+
+@font-face {
+    font-family: "acumin-bold";
+    src: url("../fonts/Acumin-Pro/fonnts.com-Acumin_Pro_Bold.ttf");
+}
+
+@font-face {
+    font-family: "acumin-semibold";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "acumin-medium";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-Medium.ttf");
+}
+
+@font-face {
+    font-family: "acumin-regular";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "acumin-light";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-Light.ttf");
+}
+
+@font-face {
+    font-family: "acumin-extraLight";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "acumin-thin";
+    src: url("../fonts/Acumin-Pro//fonnts.com-AcuminPro-Thin.ttf");
+}
+
+.black-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "acumin-medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    background: #222;
+    padding: 15px 30px;
+    border: 1px solid #222;
+}
+
+.black-btn:hover {
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid #222;
+}
+
+.centeral-text {
+    max-width: 900px;
+    margin: 70px auto 0 auto;
+}
+
+.crew-title-heading {
+    color: #111;
+    text-align: center;
+    font-family: "Noto Serif";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 125% */
+    letter-spacing: 6.4px;
+    text-transform: uppercase;
+}
+
+.centeral-text p {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "acumin-extralight";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 0 20px !important;
+}
+
+.currentModelHeadingWrap {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mainHeading {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.staff-separator-box {
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.staff-separator-line {
+    background-color: #000;
+}
+
+.staff-separator-text {
+    background-color: white;
+    padding: 0 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #111;
+    text-align: center;
+    font-family: "Noto Serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+}
+
+.staff-card-img {
+    position: relative;
+    padding-top: 100%;
+}
+
+.staff-card-img img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.staff-card-content {
+    padding: 20px 20px 12px 20px;
+    background-color: #fff;
+    border-top: 0;
+}
+
+.staff-card-position {
+    color: rgba(35, 31, 32, 0.60);
+    font-family: "acumin-light";
+    font-size: 16px;
+    font-style: normal;
+    line-height: 25px;
+    text-align: center;
+    margin: 6px 0 10px 0;
+}
+
+.staff-contact-number {
+    color: #231F20;
+    font-family: "acumin-bold";
+    font-size: 16px;
+    font-style: normal;
+    line-height: 25px;
+    text-align: center;
+}
+
+.staff-card-title {
+    color: #231F20;
+    text-align: center;
+    font-family: "acumin-semibold";
+    font-size: 16px;
+    font-style: normal;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.crew-theme-2-container {
+    width: calc(100% - 15%);
+    margin: 0 auto;
+}
+
+.staff-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.staff-col {
+    width: calc(100% / 5);
+    padding: 20px 20px 0 20px;
+}
+
+.staff-card-content a:hover {
+    text-decoration: none;
+}
+
+.staff-contact-number a {
+    color: #231F20;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1500px) {
+    .staff-separator-box {
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+    }
+
+    .crew-theme-2-container {
+        width: calc(100% - 10%);
+    }
+
+    .staff-col {
+        width: calc(100% / 4);
+        padding: 7.5px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+
+    .crew-theme-2-container {
+        width: calc(100% - 5%);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .staff-col {
+        width: calc(100% / 3);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .staff-col {
+        width: calc(100% / 2);
+    }
+
+    .staff-separator-box {
+        position: relative;
+        margin-bottom: 45px;
+        margin-top: 60px;
+    }
+
+    .staff-separator-text {
+        padding: 0 30px;
+        font-size: 16px;
+        letter-spacing: 3.2px;
+    }
+
+    .crew-title-heading {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 4.8px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .staff-separator-box {
+        position: relative;
+        margin-bottom: 45px;
+        margin-top: 30px;
+    }
+
+    .staff-separator-text {
+        padding: 0 23px;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .staff-col {
+        width: 100%;
+        padding: 10px;
+    }
+}

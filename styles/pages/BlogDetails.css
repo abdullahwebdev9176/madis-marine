@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "acumin-black";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-Black.ttf");
+}
+
+@font-face {
+    font-family: "acumin-bold";
+    src: url("../fonts/Acumin-Pro/fonnts.com-Acumin_Pro_Bold.ttf");
+}
+
+@font-face {
+    font-family: "acumin-semibold";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "acumin-medium";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-Medium.ttf");
+}
+
+@font-face {
+    font-family: "acumin-regular";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "acumin-light";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-Light.ttf");
+}
+
+@font-face {
+    font-family: "acumin-extraLight";
+    src: url("../fonts/Acumin-Pro/fonnts.com-AcuminPro-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "acumin-thin";
+    src: url("../fonts/Acumin-Pro//fonnts.com-AcuminPro-Thin.ttf");
+}
+
+/* Base styles */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+
+.blog-details-container {
+    display: flex;
+    max-width: calc(100% - 25%);
+    margin: 40px auto;
+    padding: 20px;
+    gap: 80px;
+}
+
+.blog-main {
+    flex: 3;
+}
+
+.blog-details-image {
+    position: relative;
+    padding-top: 50%;
+}
+
+.blog-details-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-meta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.blog-meta .meta-item {
+    position: relative;
+    margin-right: 30px;
+}
+
+.meta-item+.meta-item::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 13px;
+    background-color: #22222299;
+}
+
+.blog-details-title {
+    color: #222;
+    font-family: "acumin-bold";
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+    margin: 32px 0 16px 0;
+}
+
+/* Blog content (rich text) */
+
+.blog-content {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.blog-content p {
+    margin-bottom: 1.5em;
+}
+
+.blog-content h1 {
+    color: #222;
+    font-family: "acumin-bold";
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.blog-content h2 {
+    color: #222;
+    font-family: "acumin-bold";
+    font-size: 25px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.blog-content h3,
+.blog-content h4,
+.blog-content h5,
+.blog-content h6 {
+    color: #222;
+    font-family: "acumin-semibold";
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.blog-content ul,
+.blog-content ol {
+    margin: 1em 0 1.5em 2em;
+}
+
+.blog-content ul li,
+.blog-content ol li {
+    margin-bottom: 0.5em;
+}
+
+.blog-content blockquote {
+    font-family: "acumin-light";
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    background: #f5f5f5;
+    border-left: 4px solid #ccc;
+    font-style: italic;
+    color: #555;
+}
+
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em 0;
+    border-radius: 6px;
+}
+
+.blog-content a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.blog-content a:hover {
+    text-decoration: underline;
+}
+
+.blog-content p,
+.blog-content span,
+.blog-content li {
+    color: #222;
+    font-family: "acumin-light";
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+/* Sidebar */
+
+.blog-sidebar {
+    flex: 1;
+}
+
+.blog-detail-sidebar-heading {
+    color: #222;
+    font-family: "Noto Serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.sidebar-post {
+    margin-bottom: 20px;
+}
+
+.sidebar-thumbnail-image {
+    position: relative;
+    padding-top: 60%;
+    margin-bottom: 8px;
+}
+
+.sidebar-thumbnail-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar-title {
+    color: #222;
+    font-family: "acumin-bold";
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 1600px) {
+    .blog-details-container {
+        max-width: calc(100% - 20%);
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .blog-detail-sidebar-heading {
+        font-size: 21px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        margin-bottom: 25px;
+    }
+
+    .blog-details-title {
+        font-size: 25px;
+    }
+
+    .blog-details-container {
+        max-width: calc(100% - 15%);
+        gap: 45px;
+    }
+
+    .blog-content h2 {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .blog-details-container {
+        max-width: calc(100% - 10%);
+        gap: 45px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .blog-details-container {
+        max-width: 100%;
+        gap: 25px;
+    }
+
+    .sidebar-title {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .blog-content ul,
+    .blog-content ol {
+        margin: 1em 0 1.5em 0;
+    }
+
+    .blog-main {
+        flex: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-details-container {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .blog-details-content-box {
+        padding: 20px;
+    }
+
+    .blog-main {
+        flex: 1;
+    }
+
+    .blog-container {
+        flex-direction: column;
+    }
+
+    .blog-sidebar {
+        padding: 40px 20px 0 20px;
+        border-top: 1px solid #D9D9D9;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .blog-details-title {
+        font-size: 22px;
+    }
+
+    .blog-content h2 {
+        font-size: 18px;
+    }
+}
