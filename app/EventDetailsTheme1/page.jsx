@@ -1,4 +1,5 @@
 import React from 'react'
+import '@/styles/pages/EventDetailsTheme1.css'
 
 const EventDetailsTheme1 = () => {
   return (

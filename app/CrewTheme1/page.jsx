@@ -1,4 +1,5 @@
 import React from 'react'
+import '@/styles/pages/CrewTheme1.css'
 
 const CrewTheme1 = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '@/styles/pages/BlogTheme2.css'
 const BlogTheme2 = () => {
   return (
     <>
