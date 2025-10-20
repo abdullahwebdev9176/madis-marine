@@ -1,0 +1,54 @@
+.listing-container {
+    max-width: calc(100% - 10%);
+    margin: 0 auto;
+}
+
+.listing-box {
+    display: flex;
+}
+
+.listing-col-1 {
+    width: 25%;
+}
+
+.listing-col-2 {
+    width: 25%;
+}
+
+.filter-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+
+.filter-card-header h5 {
+    margin-bottom: 0;
+}
+
+.filter-card-header svg {
+    width: 20px;
+    height: 20px;
+}
+
+.filter-card-content {
+    padding: 20px;
+}
+
+.check-box-item {
+    margin-bottom: 5px;
+}
+
+.check-box-item input[type='checkbox'] {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+}
+input[type="checkbox"] {
+  appearance: auto;
+  -webkit-appearance: auto;
+  accent-color: #007bff;
+}
