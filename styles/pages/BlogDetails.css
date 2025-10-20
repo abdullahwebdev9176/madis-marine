@@ -1,15 +1,4 @@
 
-/* Base styles */
-
-body {
-    font-family: var(--font-inter), sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #fff;
-    color: #333;
-}
-
 .blog-details-container {
     display: flex;
     max-width: calc(100% - 25%);
