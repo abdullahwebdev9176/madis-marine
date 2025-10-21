@@ -69,7 +69,7 @@ const FilterPanel = () => {
                           background: "#ddd",
                           borderRadius: "3px",
                           marginTop: "15px",
-                          position: "relative"
+                          position: "relative",
                         }}
                       >
                         <div
@@ -93,23 +93,28 @@ const FilterPanel = () => {
                         {children}
                       </div>
                     )}
-                    renderThumb={({ props }) => (
-                      <div
-                        {...props}
-                        style={{
-                          height: "18px",
-                          width: "18px",
-                          borderRadius: "50%",
-                          backgroundColor: "#007bff",
-                          cursor: "pointer",
-                          boxShadow: "0 0 4px rgba(0,0,0,0.3)",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          marginTop: "-18px",
-                        }}
-                      />
-                    )}
+                    renderThumb={({ props, key }) => {
+                      // ⛔ FIX: extract key manually and spread the rest
+                      const { key: _key, ...rest } = props;
+                      return (
+                        <div
+                          key={_key}
+                          {...rest}
+                          style={{
+                            ...rest.style,
+                            height: "18px",
+                            width: "18px",
+                            borderRadius: "50%",
+                            backgroundColor: "#007bff",
+                            cursor: "pointer",
+                            boxShadow: "0 0 4px rgba(0,0,0,0.3)",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                          }}
+                        />
+                      );
+                    }}
                   />
                   <div
                     style={{
