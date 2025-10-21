@@ -52,3 +52,9 @@ input[type="checkbox"] {
   -webkit-appearance: auto;
   accent-color: #007bff;
 }
+/* .filter-card-content{
+    display: none;
+} */
+.filter-card{
+    margin-bottom: 15px;
+}
