@@ -34,7 +34,10 @@
 }
 
 .filter-card-content {
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 .check-box-item {
@@ -47,43 +50,60 @@
     height: 15px;
     background: transparent;
 }
+
 input[type="checkbox"] {
-  appearance: auto;
-  -webkit-appearance: auto;
-  accent-color: #007bff;
+    appearance: auto;
+    -webkit-appearance: auto;
+    accent-color: #007bff;
 }
+
 /* .filter-card-content{
     display: none;
 } */
-.filter-card{
+.filter-card {
     margin-bottom: 15px;
 }
 
 .range-slider {
-  padding: 8px 0;
-}
-.right-handle{
-    height: "18px";
-      width: "18px";
-      border-radius: "50%";
-      background: "#007bff";
-      cursor: "pointer";
-      box-shadow: "0 0 4px rgba(0,0,0,0.3)";
-      display: "flex";
-      align-items: "center";
-      justify-content: "center";
-      margin-top: "-18px";
+    padding: 8px 0;
 }
 
-.left-handle{
+.right-handle {
     height: "18px";
-      width: "18px";
-      border-radius: "50%";
-      background: "#007bff";
-      cursor: "pointer";
-      box-shadow: "0 0 4px rgba(0,0,0,0.3)";
-      display: "flex";
-      align-items: "center";
-      justify-content: "center";
-      margin-top: "-18px";
+    width: "18px";
+    border-radius: "50%";
+    background: "#007bff";
+    cursor: "pointer";
+    box-shadow: "0 0 4px rgba(0,0,0,0.3)";
+    display: "flex";
+    align-items: "center";
+    justify-content: "center";
+    margin-top: "-18px";
+}
+
+.left-handle {
+    height: "18px";
+    width: "18px";
+    border-radius: "50%";
+    background: "#007bff";
+    cursor: "pointer";
+    box-shadow: "0 0 4px rgba(0,0,0,0.3)";
+    display: "flex";
+    align-items: "center";
+    justify-content: "center";
+    margin-top: "-18px";
+}
+
+.filter-header h6 {
+    margin: 0;
+    padding: 8px 20px;
+    background: #000;
+    color: #FFF;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }

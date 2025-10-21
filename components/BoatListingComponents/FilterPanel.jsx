@@ -40,6 +40,10 @@ const FilterPanel = () => {
 
   return (
     <>
+
+    <div className="filter-header">
+        <h6>Filter</h6>
+    </div>
       {filtersData.map((filter, index) => (
         <div className="filter-card" key={index}>
           <div
