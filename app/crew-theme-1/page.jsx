@@ -1,5 +1,7 @@
 import React from 'react'
 import '@/styles/pages/CrewTheme1.css'
+import Image from 'next/image'
+import { assets } from '@/Aseets/Assets'
 
 const CrewTheme1 = () => {
   return (
@@ -22,7 +24,7 @@ const CrewTheme1 = () => {
           <div className="staff-cards-wrapper">
             <div className="staff-card">
               <div className="staff-image">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="staff-content">
                 <div className="staff-name">Name Lastname</div>
@@ -32,7 +34,7 @@ const CrewTheme1 = () => {
             </div>
             <div className="staff-card">
               <div className="staff-image">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="staff-content">
                 <div className="staff-name">Name Lastname</div>
@@ -42,7 +44,7 @@ const CrewTheme1 = () => {
             </div>
             <div className="staff-card">
               <div className="staff-image">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="staff-content">
                 <div className="staff-name">Name Lastname</div>
@@ -52,7 +54,7 @@ const CrewTheme1 = () => {
             </div>
             <div className="staff-card">
               <div className="staff-image">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="staff-content">
                 <div className="staff-name">Name Lastname</div>
@@ -62,7 +64,7 @@ const CrewTheme1 = () => {
             </div>
             <div className="staff-card">
               <div className="staff-image">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="staff-content">
                 <div className="staff-name">Name Lastname</div>
@@ -72,7 +74,7 @@ const CrewTheme1 = () => {
             </div>
             <div className="staff-card">
               <div className="staff-image">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="staff-content">
                 <div className="staff-name">Name Lastname</div>
@@ -82,7 +84,7 @@ const CrewTheme1 = () => {
             </div>
             <div className="staff-card">
               <div className="staff-image">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="staff-content">
                 <div className="staff-name">Name Lastname</div>
@@ -92,7 +94,7 @@ const CrewTheme1 = () => {
             </div>
             <div className="staff-card">
               <div className="staff-image">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="staff-content">
                 <div className="staff-name">Name Lastname</div>
@@ -102,7 +104,7 @@ const CrewTheme1 = () => {
             </div>
             <div className="staff-card">
               <div className="staff-image">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="staff-content">
                 <div className="staff-name">Name Lastname</div>
@@ -112,7 +114,7 @@ const CrewTheme1 = () => {
             </div>
             <div className="staff-card">
               <div className="staff-image">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="staff-content">
                 <div className="staff-name">Name Lastname</div>

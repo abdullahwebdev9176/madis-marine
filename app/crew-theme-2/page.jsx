@@ -1,5 +1,7 @@
 import React from 'react'
 import '@/styles/pages/CrewTheme2.css'
+import Image from 'next/image'
+import { assets } from '@/Aseets/Assets'
 
 
 const CrewTheme2 = () => {
@@ -29,7 +31,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -43,7 +45,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -57,7 +59,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -71,7 +73,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -85,7 +87,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -105,7 +107,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -119,7 +121,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -133,7 +135,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -147,7 +149,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -167,7 +169,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -181,7 +183,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -195,7 +197,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -209,7 +211,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -223,7 +225,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -237,7 +239,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">
@@ -251,7 +253,7 @@ const CrewTheme2 = () => {
               <div className="staff-col">
                 <div className="staff-card">
                   <div className="staff-card-img">
-                    <a href="javacript:void(0)"><img src="./assets/images/dummy.png" alt="ex-54" /></a>
+                    <a href="javacript:void(0)"><Image src={assets.placeholderImg} alt="" /></a>
                   </div>
                   <div className="staff-card-content">
                     <a href="javascript:void(0)">

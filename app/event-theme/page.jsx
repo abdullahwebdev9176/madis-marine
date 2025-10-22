@@ -1,5 +1,8 @@
 import React from 'react'
 import '@/styles/pages/EventTheme.css'
+import Link from 'next/link'
+import Image from 'next/image'
+import { assets } from '@/Aseets/Assets'
 
 const EventTheme = () => {
   return (
@@ -12,9 +15,9 @@ const EventTheme = () => {
           <div className="event-listing-box">
             <div className="event-listing-col">
               <div className="event-listing-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/images/dummy.png" alt />
-                </a>
+                <Link href="">
+                  <Image src={assets.placeholderImg} alt="" />
+                </Link>
               </div>
               <div className="event-content-box">
                 <h6 className="event-title">Event or Promotion Title</h6>
@@ -23,9 +26,9 @@ const EventTheme = () => {
             </div>
             <div className="event-listing-col">
               <div className="event-listing-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/images/dummy.png" alt />
-                </a>
+                <Link href="">
+                  <Image src={assets.placeholderImg} alt="" />
+                </Link>
               </div>
               <div className="event-content-box">
                 <h6 className="event-title">Event or Promotion Title</h6>
@@ -34,9 +37,9 @@ const EventTheme = () => {
             </div>
             <div className="event-listing-col">
               <div className="event-listing-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/images/dummy.png" alt />
-                </a>
+                <Link href="">
+                  <Image src={assets.placeholderImg} alt="" />
+                </Link>
               </div>
               <div className="event-content-box">
                 <h6 className="event-title">Event or Promotion Title</h6>
@@ -45,9 +48,9 @@ const EventTheme = () => {
             </div>
             <div className="event-listing-col">
               <div className="event-listing-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/images/dummy.png" alt />
-                </a>
+                <Link href="">
+                  <Image src={assets.placeholderImg} alt="" />
+                </Link>
               </div>
               <div className="event-content-box">
                 <h6 className="event-title">Event or Promotion Title</h6>
