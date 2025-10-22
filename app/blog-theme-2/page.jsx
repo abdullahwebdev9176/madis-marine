@@ -1,5 +1,8 @@
 import React from 'react'
 import '@/styles/pages/BlogTheme2.css'
+import Link from 'next/link'
+import Image from 'next/image'
+import { assets } from '@/Aseets/Assets'
 const BlogTheme2 = () => {
   return (
     <>
@@ -27,7 +30,7 @@ const BlogTheme2 = () => {
                 <a href="javascript:void(0)" className="blog-filter-item">Misc</a>
               </li>
             </ul>
-            <select name id className="form-control mobile-blog-filter-dropdown">
+            <select className="form-control mobile-blog-filter-dropdown">
               <option value="All Topics">All Topics</option>
               <option value="News">News</option>
               <option value="Product">Product</option>
@@ -40,9 +43,9 @@ const BlogTheme2 = () => {
           <div className="blog-listing-box">
             <div className="blog-listing-col">
               <div className="blog-listing-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/images/dummy.png" alt />
-                </a>
+                <Link href="">
+                                    <Image src={assets.placeholderImg} alt="" />
+                                </Link>
               </div>
               <div className="blog-content-box">
                 <p className="blog-category">News</p>
@@ -51,9 +54,9 @@ const BlogTheme2 = () => {
             </div>
             <div className="blog-listing-col">
               <div className="blog-listing-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/images/dummy.png" alt />
-                </a>
+                <Link href="">
+                                    <Image src={assets.placeholderImg} alt="" />
+                                </Link>
               </div>
               <div className="blog-content-box">
                 <p className="blog-category">News</p>
@@ -62,9 +65,9 @@ const BlogTheme2 = () => {
             </div>
             <div className="blog-listing-col">
               <div className="blog-listing-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/images/dummy.png" alt />
-                </a>
+                <Link href="">
+                                    <Image src={assets.placeholderImg} alt="" />
+                                </Link>
               </div>
               <div className="blog-content-box">
                 <p className="blog-category">News</p>
@@ -73,9 +76,9 @@ const BlogTheme2 = () => {
             </div>
             <div className="blog-listing-col">
               <div className="blog-listing-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/images/dummy.png" alt />
-                </a>
+                <Link href="">
+                                    <Image src={assets.placeholderImg} alt="" />
+                                </Link>
               </div>
               <div className="blog-content-box">
                 <p className="blog-category">News</p>
@@ -84,9 +87,9 @@ const BlogTheme2 = () => {
             </div>
             <div className="blog-listing-col">
               <div className="blog-listing-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/images/dummy.png" alt />
-                </a>
+                <Link href="">
+                                    <Image src={assets.placeholderImg} alt="" />
+                                </Link>
               </div>
               <div className="blog-content-box">
                 <p className="blog-category">News</p>
@@ -95,9 +98,9 @@ const BlogTheme2 = () => {
             </div>
             <div className="blog-listing-col">
               <div className="blog-listing-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/images/dummy.png" alt />
-                </a>
+                <Link href="">
+                                    <Image src={assets.placeholderImg} alt="" />
+                                </Link>
               </div>
               <div className="blog-content-box">
                 <p className="blog-category">News</p>
