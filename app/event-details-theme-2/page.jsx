@@ -1,5 +1,7 @@
 import React from 'react'
 import '@/styles/pages/EventDetailsTheme2.css'
+import Image from 'next/image'
+import { assets } from '@/Aseets/Assets'
 
 const EventDetailsTheme2 = () => {
   return (
@@ -26,7 +28,7 @@ const EventDetailsTheme2 = () => {
             </div>
             <div className="event-details-col">
               <div className="intro-img-box">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
             </div>
           </div>
@@ -64,11 +66,11 @@ const EventDetailsTheme2 = () => {
             </div>
           </div>
           <div className="event-galley-col-2">
-            <div className="owl-carousel event-gallery-carousel owl-theme">
+            {/* <div className="owl-carousel event-gallery-carousel owl-theme">
               <div className="item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="main-display-box">
@@ -78,24 +80,24 @@ const EventDetailsTheme2 = () => {
             </div>
             <div className="display-box">
               <div className="brand-item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="brand-item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="brand-item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="brand-item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="brand-item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
             </div>
             <div className="owl-carousel display-brand-logo owl-theme">
               <div className="item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
             </div>
           </div>

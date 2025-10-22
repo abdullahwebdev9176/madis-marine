@@ -1,12 +1,15 @@
 import React from 'react'
 import '@/styles/pages/EventDetailsTheme1.css'
+import Image from 'next/image'
+import { assets } from '@/Aseets/Assets'
+import Link from 'next/link'
 
 const EventDetailsTheme1 = () => {
   return (
     <>
       <section className="event-details-theme-1">
         <div className="event-details-header">
-          <img src="./assets/images/dummy.png" alt />
+          <Image src={assets.placeholderImg} alt="" />
         </div>
         <div className="event-details-container">
           <div className="event-details-intro-box">
@@ -23,8 +26,8 @@ const EventDetailsTheme1 = () => {
                 totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
                 dicta sunt explicabo.&nbsp;</p>
               <div className="intro-btn-box mt-4">
-                <a href className="event-btn">RSVP / CONTACT / REGISTER</a>
-                <a href className="event-btn">EVENT DETAILS</a>
+                <Link href="" className="event-btn">RSVP / CONTACT / REGISTER</Link>
+                <Link href="" className="event-btn">EVENT DETAILS</Link>
               </div>
             </div>
             <div className="event-details-col">
@@ -53,39 +56,39 @@ const EventDetailsTheme1 = () => {
               <h3>EVENT GALLERY</h3>
             </div>
           </div>
-          <div className="event-galley-col-2">
+          {/* <div className="event-galley-col-2">
             <div className="owl-carousel event-gallery-carousel owl-theme">
               <div className="item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="main-display-box">
           <div className="event-details-container">
-            <div className>
+            <div>
               <h3 className="event-theme-title">Brands ON display</h3>
             </div>
             <div className="display-box">
               <div className="brand-item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="brand-item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="brand-item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="brand-item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
               <div className="brand-item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
             </div>
             <div className="owl-carousel display-brand-logo owl-theme">
               <div className="item">
-                <img src="./assets/images/dummy.png" alt />
+                <Image src={assets.placeholderImg} alt="" />
               </div>
             </div>
           </div>
@@ -101,7 +104,6 @@ const EventDetailsTheme1 = () => {
             <input type="text" className="new-theme-form-input" placeholder="Last Name" />
             <input type="email" className="new-theme-form-input" placeholder="Email" />
             <input type="tel" className="new-theme-form-input" />
-            <textarea name id rows={1} placeholder="Boat you are interested in" className="new-theme-form-textarea" defaultValue={""} />
             <div className="mt-4 text-center">
               <button type="button" className="black-btn">SUBMIT</button>
             </div>
