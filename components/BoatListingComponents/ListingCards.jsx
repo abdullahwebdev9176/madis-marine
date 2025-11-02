@@ -1,5 +1,6 @@
 import { assets } from '@/Aseets/Assets'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const ListingCards = () => {
@@ -9,12 +10,14 @@ const ListingCards = () => {
       <div className='boats-card-box'>
         <div className="boats-card">
           <div className='boat-img'>
-            <Image src={assets.placeholderImg} alt="" />
+            <Link href="#">
+              <Image src={assets.placeholderImg} alt="" />
+            </Link>
           </div>
 
           <div className="boatContent">
             <div className="boatTitle">
-              <h2>2019 Sunseeker Motoryacht</h2>
+              <Link href="#"><h2>2019 Sunseeker Motoryacht</h2></Link>
             </div>
             <div className="date_title">
               <ul className="pricing-list-box">
@@ -32,12 +35,14 @@ const ListingCards = () => {
 
         <div className="boats-card">
           <div className='boat-img'>
-            <Image src={assets.placeholderImg} alt="" />
+            <Link href="#">
+              <Image src={assets.placeholderImg} alt="" />
+            </Link>
           </div>
 
           <div className="boatContent">
             <div className="boatTitle">
-              <h2>2019 Sunseeker Motoryacht</h2>
+              <Link href="#"><h2>2019 Sunseeker Motoryacht</h2></Link>
             </div>
             <div className="date_title">
               <ul className="pricing-list-box">
@@ -55,12 +60,14 @@ const ListingCards = () => {
 
         <div className="boats-card">
           <div className='boat-img'>
-            <Image src={assets.placeholderImg} alt="" />
+            <Link href="#">
+              <Image src={assets.placeholderImg} alt="" />
+            </Link>
           </div>
 
           <div className="boatContent">
             <div className="boatTitle">
-              <h2>2019 Sunseeker Motoryacht</h2>
+              <Link href="#"><h2>2019 Sunseeker Motoryacht</h2></Link>
             </div>
             <div className="date_title">
               <ul className="pricing-list-box">
@@ -78,12 +85,14 @@ const ListingCards = () => {
 
         <div className="boats-card">
           <div className='boat-img'>
-            <Image src={assets.placeholderImg} alt="" />
+            <Link href="#">
+              <Image src={assets.placeholderImg} alt="" />
+            </Link>
           </div>
 
           <div className="boatContent">
             <div className="boatTitle">
-              <h2>2019 Sunseeker Motoryacht</h2>
+              <Link href="#"><h2>2019 Sunseeker Motoryacht</h2></Link>
             </div>
             <div className="date_title">
               <ul className="pricing-list-box">
@@ -101,12 +110,14 @@ const ListingCards = () => {
 
         <div className="boats-card">
           <div className='boat-img'>
-            <Image src={assets.placeholderImg} alt="" />
+            <Link href="#">
+              <Image src={assets.placeholderImg} alt="" />
+            </Link>
           </div>
 
           <div className="boatContent">
             <div className="boatTitle">
-              <h2>2019 Sunseeker Motoryacht</h2>
+              <Link href="#"><h2>2019 Sunseeker Motoryacht</h2></Link>
             </div>
             <div className="date_title">
               <ul className="pricing-list-box">
@@ -124,12 +135,14 @@ const ListingCards = () => {
 
         <div className="boats-card">
           <div className='boat-img'>
-            <Image src={assets.placeholderImg} alt="" />
+            <Link href="#">
+              <Image src={assets.placeholderImg} alt="" />
+            </Link>
           </div>
 
           <div className="boatContent">
             <div className="boatTitle">
-              <h2>2019 Sunseeker Motoryacht</h2>
+              <Link href="#"><h2>2019 Sunseeker Motoryacht</h2></Link>
             </div>
             <div className="date_title">
               <ul className="pricing-list-box">
@@ -147,12 +160,14 @@ const ListingCards = () => {
 
         <div className="boats-card">
           <div className='boat-img'>
-            <Image src={assets.placeholderImg} alt="" />
+            <Link href="#">
+              <Image src={assets.placeholderImg} alt="" />
+            </Link>
           </div>
 
           <div className="boatContent">
             <div className="boatTitle">
-              <h2>2019 Sunseeker Motoryacht</h2>
+              <Link href="#"><h2>2019 Sunseeker Motoryacht</h2></Link>
             </div>
             <div className="date_title">
               <ul className="pricing-list-box">
@@ -170,12 +185,14 @@ const ListingCards = () => {
 
         <div className="boats-card">
           <div className='boat-img'>
-            <Image src={assets.placeholderImg} alt="" />
+            <Link href="#">
+              <Image src={assets.placeholderImg} alt="" />
+            </Link>
           </div>
 
           <div className="boatContent">
             <div className="boatTitle">
-              <h2>2019 Sunseeker Motoryacht</h2>
+              <Link href="#"><h2>2019 Sunseeker Motoryacht</h2></Link>
             </div>
             <div className="date_title">
               <ul className="pricing-list-box">
@@ -193,12 +210,14 @@ const ListingCards = () => {
 
         <div className="boats-card">
           <div className='boat-img'>
-            <Image src={assets.placeholderImg} alt="" />
+            <Link href="#">
+              <Image src={assets.placeholderImg} alt="" />
+            </Link>
           </div>
 
           <div className="boatContent">
             <div className="boatTitle">
-              <h2>2019 Sunseeker Motoryacht</h2>
+              <Link href="#"><h2>2019 Sunseeker Motoryacht</h2></Link>
             </div>
             <div className="date_title">
               <ul className="pricing-list-box">
